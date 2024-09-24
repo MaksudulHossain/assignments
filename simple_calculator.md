@@ -1,11 +1,12 @@
-set a, b, op to corresponding inputs
-if op == '+'
-	print a+b
-else if op == '-'
-	print a+b
-else if op == '*'
-	print a+b
-else if op == '/'
-	print a+b
-else
-	print "Not a valid operator"
+input a, b, op
+(1)	if op == '+':
+		(a) output a+b
+	else if op == '-':
+		(a) output a+b
+	else if op == '*':
+		(a) output a+b
+	else if op == '/':
+		(a) output a+b
+	else:
+		(a) output "Not a valid operator"
+end

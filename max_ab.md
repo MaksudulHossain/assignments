@@ -1,5 +1,6 @@
-set a, b to inputs
-if a>b
-	print a
-else
-	print b
+	input a, b
+(1)	if a>b:
+		(a) output a
+	else:
+		(b) output b
+	end

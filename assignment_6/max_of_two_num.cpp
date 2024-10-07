@@ -1,9 +1,13 @@
-// Maximum of Two Numbers
-// Problem: Write a program that takes two values as input and returns the greater of the two.
-// Example: Input: 5, 10 -> Output: 10
-
 #include <iostream>
 using namespace std;
+
+/* 	input a, b
+(1)	if a>b:
+		(a) output a
+	else:
+		(b) output b
+	end
+*/
 
 int main(){
 	int num1, num2;

@@ -1,11 +1,15 @@
-// Homework Problems:
-// Even or Odd
-// Problem: Write a program that takes a single value as input and returns whether it is "Even" or "Odd".
-// Example: Input: 7 -> Output: "Odd" | Input: 8 -> Output: "Even"
 
 #include <iostream>
 using namespace std;
 
+/* 	input = num
+(1)	if (num%2==0):
+		(a) output "Even"
+	else:
+		(a) output "Odd"
+	end
+*/
+	
 int main(){
 	int num;
 	cout << "Enter a number: " << endl;

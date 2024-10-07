@@ -1,10 +1,20 @@
-// Leap Year Checker
-// Problem: Write a program that takes a year as input and returns whether it is a leap year. A leap year is divisible by 4, but not by 100 unless it is also divisible by 400.
-// Example: Input: 2020 -> Output: "Leap Year" | Input: 1900 -> Output: "Not a Leap Year"
-
 #include <iostream>
 using namespace std;
 
+/* 	input year
+	(1)	if year%100==0:
+			if year%400==0:
+				(a) output "Leap Year"
+			else:
+				(a) output "Not a leap year"
+		else:
+			if year%4==0:
+				(a) output "Leap year"
+			else:
+				(a) output "Not a leap year"
+		end
+*/
+	
 int main(){
 	int year;
 	

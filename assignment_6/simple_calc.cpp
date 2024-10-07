@@ -1,10 +1,20 @@
-// Simple Calculator
-// Problem: Write a program that takes three inputs: two values and an operator (like +, -, *, /). The program should perform the corresponding arithmetic operation on the values and return the result.
-// Example: Input: 8, 4, "+" -> Output: 12
-
 #include <iostream>
 #include <cstring>
 using namespace std;
+
+/* input a, b, op
+(1)	if op == '+':
+		(a) output a+b
+	else if op == '-':
+		(a) output a+b
+	else if op == '*':
+		(a) output a+b
+	else if op == '/':
+		(a) output a+b
+	else:
+		(a) output "Not a valid operator"
+end
+*/
 
 int main(){
 	int num1, num2;
@@ -26,7 +36,7 @@ int main(){
 		cout << num1/num2 << endl;
 	}
 	else{
-		cout << "Invalid input." << endl;
+		cout << "Not a valid operator" << endl;
 	}
 	
 	return 0;
